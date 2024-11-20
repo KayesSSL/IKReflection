@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "IKReflection"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "Testing for our new Package"
     s.description  = "We are developing a payment gateway package which would be available through cocoapods within a very short period."
     s.homepage     = "https://github.com/KayesSSL/IKReflection.git"
