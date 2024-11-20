@@ -1,0 +1,6 @@
+framework module IKReflection {
+  umbrella header "IKReflection.h"
+  export *
+
+  module * { export * }
+}

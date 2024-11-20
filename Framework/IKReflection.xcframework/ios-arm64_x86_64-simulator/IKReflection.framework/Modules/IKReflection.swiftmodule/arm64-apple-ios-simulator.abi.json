@@ -1,0 +1,120 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "IKReflection",
+    "printedName": "IKReflection",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Mirage",
+        "printedName": "Mirage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Mirage",
+                "printedName": "IKReflection.Mirage",
+                "usr": "s:12IKReflection6MirageC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IKReflection6MirageC6sharedACvp",
+            "mangledName": "$s12IKReflection6MirageC6sharedACvp",
+            "moduleName": "IKReflection",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mirage",
+                    "printedName": "IKReflection.Mirage",
+                    "usr": "s:12IKReflection6MirageC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IKReflection6MirageC6sharedACvg",
+                "mangledName": "$s12IKReflection6MirageC6sharedACvg",
+                "moduleName": "IKReflection",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "seeThrough",
+            "printedName": "seeThrough(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IKReflection6MirageC10seeThroughyS2SF",
+            "mangledName": "$s12IKReflection6MirageC10seeThroughyS2SF",
+            "moduleName": "IKReflection",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12IKReflection6MirageC",
+        "mangledName": "$s12IKReflection6MirageC",
+        "moduleName": "IKReflection",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
