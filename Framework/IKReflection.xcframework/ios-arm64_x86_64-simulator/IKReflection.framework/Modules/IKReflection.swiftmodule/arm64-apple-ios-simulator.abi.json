@@ -22,9 +22,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IKReflection6MirageC6sharedACvp",
-            "mangledName": "$s12IKReflection6MirageC6sharedACvp",
+            "usr": "s:12IKReflection6MirageC6sharedACvpZ",
+            "mangledName": "$s12IKReflection6MirageC6sharedACvpZ",
             "moduleName": "IKReflection",
+            "static": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
@@ -47,9 +48,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IKReflection6MirageC6sharedACvg",
-                "mangledName": "$s12IKReflection6MirageC6sharedACvg",
+                "usr": "s:12IKReflection6MirageC6sharedACvgZ",
+                "mangledName": "$s12IKReflection6MirageC6sharedACvgZ",
                 "moduleName": "IKReflection",
+                "static": true,
                 "implicit": true,
                 "declAttributes": [
                   "Final"
