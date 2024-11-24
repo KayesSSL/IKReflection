@@ -9,5 +9,6 @@ import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers open class Mirage {
   public static let shared: IKReflection.Mirage
   public func seeThrough(_ name: Swift.String) -> Swift.String
+  public func whatsUP(_ message: Swift.String)
   @objc deinit
 }
