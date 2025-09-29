@@ -62,6 +62,54 @@
           },
           {
             "kind": "Function",
+            "name": "checkBalance",
+            "printedName": "checkBalance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IKReflection6MirageC12checkBalanceSdyF",
+            "mangledName": "$s12IKReflection6MirageC12checkBalanceSdyF",
+            "moduleName": "IKReflection",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "diposite",
+            "printedName": "diposite(amount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IKReflection6MirageC8diposite6amountSSSd_tF",
+            "mangledName": "$s12IKReflection6MirageC8diposite6amountSSSd_tF",
+            "moduleName": "IKReflection",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "seeThrough",
             "printedName": "seeThrough(_:)",
             "children": [
@@ -175,7 +223,7 @@
     {
       "filePath": "\/Users\/imrulkayes\/Desktop\/IKReflection\/IKReflection\/Mirage.swift",
       "kind": "IntegerLiteral",
-      "offset": 138,
+      "offset": 146,
       "length": 1,
       "value": "0"
     }

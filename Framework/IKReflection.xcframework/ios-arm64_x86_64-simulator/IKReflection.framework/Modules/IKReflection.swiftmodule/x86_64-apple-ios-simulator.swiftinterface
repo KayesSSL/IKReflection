@@ -9,6 +9,8 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers open class Mirage {
   public static let shared: IKReflection.Mirage
+  public func checkBalance() -> Swift.Double
+  public func diposite(amount: Swift.Double) -> Swift.String
   public func seeThrough(_ name: Swift.String) -> Swift.String
   public func whatsUP(_ message: Swift.String)
   public func withdrawMoney(amount: Swift.Double) -> Swift.String
