@@ -112,6 +112,33 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withdrawMoney",
+            "printedName": "withdrawMoney(amount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IKReflection6MirageC13withdrawMoney6amountSSSd_tF",
+            "mangledName": "$s12IKReflection6MirageC13withdrawMoney6amountSSSd_tF",
+            "moduleName": "IKReflection",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -144,5 +171,13 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/imrulkayes\/Desktop\/IKReflection\/IKReflection\/Mirage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 138,
+      "length": 1,
+      "value": "0"
+    }
+  ]
 }
